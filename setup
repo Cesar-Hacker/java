@@ -68,7 +68,6 @@ printf "$yellow paquetes estan siendo extraidos$yellow"
 		echo "
 		"
 		printf "$cyan [I] estas instalando los requisitos ...$green"
-	echo
 echo "
 "
 printf "$yellow [I] moviendo codigo1.gz a sistema ...$cyan"
@@ -112,10 +111,6 @@ echo
 		echo "
 		"
 		printf "$cyan [I] espera! instalando dato pesado ...$yellow"
-	sleep 1
-	echo
-	echo $(wget https://github.com/ivam3/java/releases/download/v8/jdk8_aarch64.tar.gz)
-	sleep 1
 echo "
 "
 printf "$cyan [I] moviendo codigo2 a sistema...$green"
@@ -153,10 +148,6 @@ echo
 		echo "
 		"
 		printf "$cyan [I] estas instalando los datos...$green"
-	sleep 1
-	echo
-	echo $(wget https://github.com/ivam3/java/releases/download/v8-151/jdk8_arm.tar.gz)
-	sleep1
 echo "
 "
 printf "$yellow [!] moviendo codigo3 a sistema ...$green"
